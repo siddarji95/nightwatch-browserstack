@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "learn automation",
+  "main": "nightwatch.js",
+  "scripts": {
+    "local": "./node_modules/.bin/nightwatch -c config/local.config.js",
+    "browserstack": "node scripts/browserstack.runner.js -c config/browserstack.config.js",
+    "grid": "./node_modules/.bin/nightwatch -c config/grid.config.js"
+  },
+  "author": "siddharth",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-local": "^1.4.2",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "nightwatch": "^1.2.4"
+  }
+}
