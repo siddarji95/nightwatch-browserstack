@@ -3,5 +3,5 @@
 <ol>
  <li>npm install</li>
  <li>npm run browserstack: To run tests on browsertstack</li>
- <li>npm run browserstack: To run tests on selenium local</li>
+ <li>npm run local: To run tests on selenium local</li>
  </ol>
