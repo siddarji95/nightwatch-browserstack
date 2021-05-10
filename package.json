@@ -13,7 +13,7 @@
   "dependencies": {
     "browserstack-local": "^1.4.2",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "nightwatch": "^1.2.4"
   }
 }
